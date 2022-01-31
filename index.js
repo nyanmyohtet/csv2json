@@ -17,8 +17,6 @@ process.argv.forEach(function (val, index, array) {
   }
 })
 
-csv2json(readFilePath, outFilePath)
-
 /**
  * Convert CSV to JSON
  * @param {String} inputFilePath
@@ -58,3 +56,5 @@ function readFile(path, encoding) {
 function writeFile(path, data, encoding) {
   writeFileSync(path, JSON.stringify(data, null, 4), encoding)
 }
+
+module.exports = csv2json
