@@ -1,0 +1,26 @@
+{
+  "name": "@nyanmyohtet/csv2json",
+  "version": "1.0.0",
+  "description": "Convert CSV to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyanmyohtet/csv2json.git"
+  },
+  "keywords": [
+    "csv",
+    "json"
+  ],
+  "author": "nyanmyohtet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyanmyohtet/csv2json/issues"
+  },
+  "homepage": "https://github.com/nyanmyohtet/csv2json#readme",
+  "devDependencies": {
+    "papaparse": "^5.3.1"
+  }
+}
