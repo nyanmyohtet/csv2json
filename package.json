@@ -2,6 +2,9 @@
   "name": "@nyanmyohtet/csv2json",
   "version": "1.1.1",
   "description": "Convert CSV to JSON",
+  "engines": {
+    "node": ">= 16.0.0"
+ },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +23,7 @@
     "url": "https://github.com/nyanmyohtet/csv2json/issues"
   },
   "homepage": "https://github.com/nyanmyohtet/csv2json#readme",
-  "devDependencies": {
+  "dependencies": {
     "papaparse": "^5.3.1"
   }
 }
