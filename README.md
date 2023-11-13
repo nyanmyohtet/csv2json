@@ -1,5 +1,5 @@
 # csv2json
-Convert CSV to JSON at NodeJS
+Convert CSV to JSON in NodeJS
 
 ## Running Package
 `node ./node_modules/@nyanmyohtet/csv2json/index.js ./input.csv ./out.json`
