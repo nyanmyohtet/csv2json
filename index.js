@@ -57,4 +57,4 @@ function writeFile(path, data, encoding) {
   writeFileSync(path, JSON.stringify(data, null, 4), encoding)
 }
 
-module.exports = csv2json
+csv2json()
